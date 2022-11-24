@@ -10,9 +10,9 @@ The application should expose a public REST API endpoint that provides current e
 
 ## Business Requirements
 
-As an API Client, I want to see current exchange rates.
+- As an API Client, I want to see current exchange rates.
 
-As an API Client, I want to understand how the exchange rate has changed compared to the previous day. 
+- As an API Client, I want to understand how the exchange rate has changed compared to the previous day. 
 
 
 ## Technical Requirements
@@ -31,7 +31,7 @@ As an API Client, I want to understand how the exchange rate has changed compare
 
 - Delivered code and documentation SHOULD follow the best practices
 - Application must be fully functioning
-- Application must be deployable (either to AWS or [localstack](https://docs.localstack.cloud/)
+- Application must be deployable (either to AWS or [localstack](https://docs.localstack.cloud/) )
 
 You can use cloudformation, CDK, serverless or AWS CLI for the deployment.
 
